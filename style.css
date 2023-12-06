@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: hwb(191 6% 76%);
+    color: beige;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:30px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+
+}
+.logo{
+    font-size: 25px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 100;
+    
+}
+.home
+{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+
+}
+.home-content{
+   
+    max-width: 600px;
+    padding: 25px;
+
+}
+.home-content h1{
+    font-size: 50px;
+
+    font-weight: 700;
+    color: beige;
+}
+h2{
+    font-size: 30px;
+
+    font-weight: 700;
+    color:beige;
+    padding: 20px;
+}
+.home-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: aqua;
+}
+.home-content p{
+    font-size: 15px;
+
+}
+
+.home-img{
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 700px;
+    
+  }
+  .home-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  table {
+    margin-top: 13px;
+    border: 2px solid rgb(117, 232, 255);
+    border-collapse: collapse;
+    align-self: center;
+  }
+  table.center{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  th {
+    border: 2px solid  rgb(117, 232, 255);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  td {
+    border: 2px solid  rgb(136, 173, 180);
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+  }
+  .navbar a{
+   
+    font-weight: 500;
+    margin-left: 35px;
+  }
+  .navbar img:hover{
+    color: black;
+  }
+  .navbar img{
+    font-size: 18px;
+    color: beige;
+    font-weight: 500;
+    margin-left: 35px;
+
+    height:20px;
+    
+    margin:05px;
+    }
+    footer p{
+        color: beige;
+        font-size: medium;
+        font-weight: 100;
+        text-align: center;
+    }
+  
